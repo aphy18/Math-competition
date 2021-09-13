@@ -9,4 +9,7 @@ class Player
       @player_name = gets.chomp
       puts "Ok #{@player_name} good to go!"
     end
+    def lose_life
+      @player_lives -= 1
+    end
   end
